@@ -1,0 +1,17 @@
+#ifndef MESSAGE_H
+#define MESSAGE_H
+
+typedef nx_struct RssMsg{
+  int16_t source;
+  int16_t rssi;
+  int16_t coord_x;
+  int16_t coord_y;
+} RssMsg;
+
+enum {
+  AM_TEST_SERIAL_MSG = 0x89,
+  AM_RSSIMSG = 10,
+  SEND_INTERVAL_MS = 1000
+};
+
+#endif
