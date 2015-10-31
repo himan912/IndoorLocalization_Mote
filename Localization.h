@@ -11,7 +11,7 @@ typedef nx_struct RssMsg{
 enum {
   AM_TEST_SERIAL_MSG = 0x89,
   AM_RSSIMSG = 10,
-  SEND_INTERVAL_MS = 250
+  SEND_INTERVAL_MS = 500
 };
 
 #endif
